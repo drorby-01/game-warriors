@@ -1,7 +1,14 @@
 
 const type=["archer","axeman","swordman"];
 
-const images = ["https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_100,f_auto,fl_lossy,w_640,c_limit/cdn/6da3cada-4837-4be8-bac7-442de02060e7/5743403f-1b5c-4fa0-bd92-7300eb09c29c.jpg","https://www.wonderslist.com/wp-content/uploads/2014/08/Lara-Croft-Tomb-Raider.jpg","https://allthingsdantastic.files.wordpress.com/2015/03/img_9961.jpg?w=376","https://api.time.com/wp-content/uploads/2017/06/pikachu-most-influential-game-characters.jpg?w=720"]
+const images = [
+"https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/q_100,f_auto,fl_lossy,w_640,c_limit/cdn/6da3cada-4837-4be8-bac7-442de02060e7/5743403f-1b5c-4fa0-bd92-7300eb09c29c.jpg",
+"https://www.wonderslist.com/wp-content/uploads/2014/08/Lara-Croft-Tomb-Raider.jpg",
+"https://allthingsdantastic.files.wordpress.com/2015/03/img_9961.jpg?w=376",
+"https://api.time.com/wp-content/uploads/2017/06/pikachu-most-influential-game-characters.jpg?w=720"
+]
+
+//make object of warrior
 function gameWarriors(){
    
      const warrior={
@@ -33,7 +40,7 @@ function gameWarriors(){
    return warrior;
 }
 
-
+//make charecter in the DOM
 function drawInCard(warrior)
 {
     if(typeof warrior !== "object") return
